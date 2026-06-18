@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akshay Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">AK<span>.</span></div> 
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active"href="projects.html">Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="right-side">
+        <a href="assets/Kompally_Akshay_Resume.pdf" target="_blank" class="resume-btn">Resume</a>
+        <i class="fa-regular fa-sun" id="theme-toggle"></i>
+    </div>
+</header>
+
+<br><br><br><br><br>
+
+<section class="projects-case-study">
+
+    <div class="section-title">
+        <span class="line"></span>
+        <h2>CASE STUDIES</h2>
+    </div>
+
+    <h1 class="project-heading">
+        My Projects
+    </h1>
+
+    <p class="project-intro">
+        Each project below is documented as a case study:
+        the problem I was trying to solve, how I approached it,
+        what actually shipped, and what I'd do differently.
+    </p>
+
+    <!-- Project Card -->
+
+    <div class="project-row">
+
+        <div class="project-content">
+
+            <span class="project-number">
+                PROJECT 01
+            </span>
+
+            <h2>
+                Interview Tracker
+            </h2>
+
+            <p>
+                Full-stack web application for interview
+                performance analytics
+            </p>
+
+            <div class="project-tags">
+
+                <span>Python</span>
+                <span>Flask</span>
+                <span>MySQL</span>
+                <span>Chart.js</span>
+                <span>Flask-Login</span>
+                <span>Bcrypt</span>
+
+            </div>
+
+        </div>
+
+        <a href="https://github.com/Akshaykompally"class="github-btn">
+            <i class="fa-brands fa-github"></i>
+            GitHub
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<section class="case-study-grid">
+
+    <div class="case-card">
+        <h3>THE PROBLEM</h3>
+
+        <p>
+            Preparing for interviews can become disorganized, with notes scattered across multiple platforms and no clear way to track progress.
+            I needed a centralized system to record interview experiences, monitor performance, and identify recurring weak areas. Existing solutions 
+            lacked personalization and analytics focused on interview preparation.
+        </p>
+    </div>
+
+    <div class="case-card">
+        <h3>MY APPROACH</h3>
+
+        <p>
+            I developed a full-stack web application using Flask, MySQL, HTML, CSS, and JavaScript. The system allows users to log interview details, track outcomes, 
+            and manage records through CRUD operations. I integrated Flask-Login and Bcrypt for secure authentication and used Chart.js to visualize interview performance data.
+        </p>
+    </div>
+
+    <div class="case-card">
+        <h3>OUTCOME</h3>
+
+        <p>
+            The application provided a structured way to manage interview preparation and track growth over time. Users could analyze performance trends through charts and identify strengths and weaknesses. 
+            The dashboard made interview data easier to understand and helped improve preparation efficiency.
+        </p>
+    </div>
+
+    <div class="case-card">
+        <h3>WHAT I'D CHANGE</h3>
+
+        <p>
+            I would add role-specific interview roadmaps and AI-generated preparation recommendations. I would also implement email reminders, company-specific preparation checklists,
+            and cloud deployment to improve scalability and accessibility.
+        </p>
+    </div>
+
+</section>
+
+
+
+
+<section class="projects-case-study">
+
+    <!-- <div class="section-title">
+        <span class="line"></span>
+        <h2>CASE STUDIES</h2>
+    </div>
+
+    <h1 class="project-heading">
+        My Projects
+    </h1>
+
+    <p class="project-intro">
+        Each project below is documented as a case study:
+        the problem I was trying to solve, how I approached it,
+        what actually shipped, and what I'd do differently.
+    </p> -->
+
+    <!-- Project Card -->
+
+    <div class="project-row">
+
+        <div class="project-content">
+
+            <span class="project-number">
+                PROJECT 02
+            </span>
+
+            <h2>
+                AI Image Generation App
+            </h2>
+
+            <p>
+                ClipDrop-powered image generation with Flask backend
+
+            </p>
+
+            <div class="project-tags">
+
+                <span>Python</span>
+                <span>Flask</span>
+                <span>MySQL</span>
+                <span>ClipDrop API</span>
+                <span>HTML</span>
+                <span>CSS</span>
+
+            </div>
+
+        </div>
+
+        <a href="https://github.com/Akshaykompally"class="github-btn">
+            <i class="fa-brands fa-github"></i>
+            GitHub
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<section class="case-study-grid">
+
+    <div class="case-card">
+        <h3>THE PROBLEM</h3>
+
+        <p>
+            Creating AI-generated images often requires using multiple tools and platforms, 
+            making the process less convenient for users. I wanted to provide a simple interface where users could generate images from text prompts
+            without dealing with complex AI workflows.
+        </p>
+    </div>
+
+    <div class="case-card">
+        <h3>MY APPROACH</h3>
+
+        <p>
+            I built a Flask-based web application integrated with the ClipDrop API. The system processes user prompts, communicates with the AI service, 
+            and displays generated images. Authentication, session management, and MySQL storage were implemented to provide a secure and personalized experience.
+        </p>
+    </div>
+
+    <div class="case-card">
+        <h3>OUTCOME</h3>
+
+        <p>
+            The application successfully generated images based on user prompts through seamless API integration. Users could securely access the platform and manage their
+            generated content. The project improved my understanding of API integration, backend workflows, and AI-powered applications.
+        </p>
+    </div>
+
+    <div class="case-card">
+        <h3>WHAT I'D CHANGE</h3>
+
+        <p>
+            I would support multiple AI providers instead of relying on a single API. Adding image history, prompt optimization, image editing features,
+            and cloud storage would improve usability and make the application more scalable.I'd also look at R2 or S3 for storing generated images rather than the local filesystem.
+
+
+        </p>
+    </div>
+
+</section>
+
+
+
+
+
+<section class="projects-case-study">
+
+    <!-- <div class="section-title">
+        <span class="line"></span>
+        <h2>CASE STUDIES</h2>
+    </div>
+
+    <h1 class="project-heading">
+        My Projects
+    </h1>
+
+    <p class="project-intro">
+        Each project below is documented as a case study:
+        the problem I was trying to solve, how I approached it,
+        what actually shipped, and what I'd do differently.
+    </p> -->
+
+    <!-- Project Card -->
+
+    <div class="project-row">
+
+        <div class="project-content">
+
+            <span class="project-number">
+                PROJECT 03
+            </span>
+
+            <h2>
+                Facial Age Estimation
+            </h2>
+
+            <p>
+               CNN-based deep learning model for age group classification
+            </p>
+
+            <div class="project-tags">
+
+                <span>Python</span>
+                <span>Flask</span>
+                <span>CNN</span>
+                <span>Numpy</span>
+                <span>Matplotlib</span>
+                <span>HTML/CSS</span>
+
+            </div>
+
+        </div>
+
+        <a href="https://github.com/Akshaykompally"class="github-btn">
+            <i class="fa-brands fa-github"></i>
+            GitHub
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<section class="case-study-grid">
+
+    <div class="case-card">
+        <h3>THE PROBLEM</h3>
+
+        <p>
+        Estimating age from facial images is a challenging computer vision problem due to variations
+        in lighting, image quality, facial expressions, and age-related features. The goal was to develop 
+        a model capable of accurately classifying age groups from images.
+        </p>
+    </div>
+
+    <div class="case-card">
+        <h3>MY APPROACH</h3>
+
+        <p>
+           I developed a Convolutional Neural Network (CNN) model and implemented preprocessing 
+           techniques such as resizing, normalization, and feature extraction. Facial images were processed through 
+           a structured pipeline to improve consistency and model performance. NumPy and Matplotlib were used for data handling and visualization.
+        </p>
+    </div>
+
+    <div class="case-card">
+        <h3>OUTCOME</h3>
+
+        <p>
+            The model achieved approximately 98% classification accuracy across predefined age groups. 
+            Performance metrics such as Precision, Recall, and F1-Score demonstrated strong model effectiveness. 
+            The project enhanced my knowledge of deep learning, image processing, and model evaluation.
+        </p>
+    </div>
+
+    <div class="case-card">
+        <h3>WHAT I'D CHANGE</h3>
+
+        <p>
+            I would train the model on a larger and more diverse dataset to improve generalization. 
+            I would also experiment with transfer learning models such as ResNet and EfficientNet and 
+            deploy the solution as a real-time web application for practical use.
+        </p>
+    </div>
+
+</section>
+
+
+
+
+
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <div class="footer-left">
+            <h2>AK<span>.</span></h2>
+            <p> © 2026 Kompally Akshay. All Rights Reserved.</p>
+        </div>
+
+        
+
+        <div class="footer-right">
+            <a href="https://github.com/Akshaykompally" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kompallyakshay/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:akshay.kompally@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+
+    </div>
+
+    
+
+</footer>
+<script src="script.js"></script>
+</body>

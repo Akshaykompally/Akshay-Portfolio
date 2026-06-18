@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akshay Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">AK<span>.</span></div> 
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="right-side">
+        <a href="assets/Kompally_Akshay_Resume.pdf" target="_blank" class="resume-btn">Resume</a>
+        <i class="fa-regular fa-sun" id="theme-toggle"></i>
+    </div>
+</header>
+
+<br><br><br><br>
+
+<section class="contact-section">
+
+    <!-- LEFT SIDE -->
+
+    <div class="contact-left">
+
+        <div class="section-title">
+            <span class="line"></span>
+            <h2>CONTACT</h2>
+        </div>
+
+        <h1>Let's talk</h1>
+
+        <p class="contact-desc">
+            I'm currently looking for software engineering internship
+            opportunities. If you have a role that
+            could be a good fit, a project you'd like to collaborate on,
+            or just want to say hello — I'd love to hear from you.
+        </p>
+
+        <!-- Contact Info -->
+
+        <div class="contact-info">
+
+            <div class="info-item">
+                <div class="info-icon">
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+
+                <div>
+                    <span>Email</span>
+                    <h4>akshaykompally@gmail.com</h4>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <div class="info-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+
+                <div>
+                    <span>Location</span>
+                    <h4>Hyderabad, India</h4>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <div class="info-icon">
+                    <i class="fa-regular fa-clock"></i>
+                </div>
+
+                <div>
+                    <span>Response time</span>
+                    <h4>Usually within 24–48 hours</h4>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Socials -->
+
+        <div class="contact-socials">
+
+            <a  href="https://github.com/Akshaykompally" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a  href="https://www.linkedin.com/in/kompallyakshay/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+<div class="contact-form-box">
+
+    <form id="contactForm">
+
+        <div class="form-row">
+
+            <div class="input-group">
+                <label>Name *</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Akshay Kompally"
+                    required>
+            </div>
+
+            <div class="input-group">
+                <label>Email *</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="you@example.com"
+                    required>
+            </div>
+
+        </div>
+
+        <div class="input-group">
+            <label>Subject *</label>
+            <input
+                type="text"
+                id="subject"
+                placeholder="Internship opportunity at XYZ company"
+                required>
+        </div>
+
+        <div class="input-group">
+            <label>Message *</label>
+
+            <textarea
+                id="message"
+                maxlength="2000"
+                placeholder="Hi Akshay, I came across your portfolio and wanted to reach out about..."
+                required></textarea>
+
+            <small>
+                <span id="charCount">0</span> / 2000 characters
+            </small>
+        </div>
+
+        <button type="submit" class="send-btn">
+            <i class="fa-regular fa-paper-plane"></i>
+            Send Message
+        </button>
+
+    </form>
+
+</div>
+</section>
+
+
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <div class="footer-left">
+            <h2>AK<span>.</span></h2>
+            <p> © 2026 Kompally Akshay. All Rights Reserved.</p>
+        </div>
+
+        
+
+        <div class="footer-right">
+            <a href="https://github.com/Akshaykompally" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kompallyakshay/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:akshay.kompally@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+
+
+</script>
+</body>

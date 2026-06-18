@@ -1,0 +1,63 @@
+
+/* ==========================
+   FOOTER
+========================== */
+
+.footer{
+    width:80%;
+    margin:auto;
+    border-top:1px solid #1e293b;
+    padding:50px 0 20px;
+}
+
+.footer-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-left h2{
+    color:white;
+    font-size:22px;
+    margin-bottom:12px;
+}
+
+.footer-left span{
+    color:#3b82f6;
+}
+
+.footer-left p{
+    color:#94a3b8;
+    font-size:15px;
+}
+
+.footer-center{
+    display:flex;
+    gap:35px;
+}
+
+.footer-center a{
+    color:#94a3b8;
+    text-decoration:none;
+    font-size:15px;
+    transition:.3s;
+}
+
+.footer-center a:hover{
+    color:#3b82f6;
+}
+
+.footer-right{
+    display:flex;
+    gap:22px;
+}
+
+.footer-right a{
+    color:#94a3b8;
+    font-size:32px;
+    transition:.3s;
+}
+
+.footer-right a:hover{
+    color:#3b82f6;
+}
